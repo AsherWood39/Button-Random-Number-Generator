@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Fantasy;
+    font-size: medium;
+    text-align: center;
+    color: rgb(107, 83, 230);
+    background: #000000;
+}
+#no{
+    font-size: 3em;
+    padding: 15px 35px;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    border-color: azure;
+    background: black;
+    color: azure;
+}
+#no:hover
+{
+    border-color: var(--clr);
+    color: var(--clr);
+    letter-spacing: 0.25em;
+}
+
+#myLabel{
+    position: absolute;
+    top: 60%;
+    left: 49%;
+    font-size: 3em;
+}
